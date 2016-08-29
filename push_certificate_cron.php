@@ -136,6 +136,7 @@ fclose($fp);
 
 }
 
+mysqli_close($conn);
 
 
 // FUNCTION to check if there is an error response from Apple
